@@ -243,7 +243,7 @@ Here is an example of the data passed from a C2C API endpoint. Ids passed from t
 ```
 
 ### Option 2: Self-Describing Model
-Instead of using matching ids that are stored in both the C2C platform and the SCALE Rubric site, the C2C API would use the above JSON format for the user input (the scoring) and also include ALL necessary information to construct and display the Individual and Group Performance Pages. SCALE Rubric site's internally stored rubrics would ***NOT BE USED*** in this case. This means the C2C API will also need to pass data about the Rubric and each question. Essentially the result from the C2C API would be a fully self-describing model of the data.   
+Instead of using matching ids that are stored in both the C2C platform and the SCALE Rubric site, the C2C API would use the above JSON format for the user input (the scoring) and also include ALL necessary information to construct and display the Individual and Group Performance Pages. The SCALE Rubric site's internally stored rubrics would ***NOT BE USED*** in this case. Instead, the C2C API would pass data about the Rubric and each question. Essentially the result from the C2C API would be a fully self-describing model of the rubric, rubric questions, and user input.   
 
 ***RISK: Passing the full rubric definition in every API call is redundant and increases the payload size significantly. This also places extra burden on the engineering team to construct and send additional information.***
 
