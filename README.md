@@ -5,3 +5,7 @@ The content in this repository is designed to help integrate the SCALE Science L
 
 ## Live Site
 At present, a live version of the SCALE Science Learning-Centered Rubric site can be found here: https://mklewandowski.github.io/rubric-web-demo
+
+## Resources
+- [View the Integration Overview](integration-overview.md)
+- [View Sample User State JSON Data](local-storage-user-state-data.json)
